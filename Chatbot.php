@@ -15,7 +15,7 @@ function get_file($url) {
     return $data;
 }
 
-$app = new DropboxApp("jb24om313hf1s45", "ht5y8qv7qtwte5l", 'MFF4oiIi1aAAAAAAAAAAwyG9Q8Wa4xxTaFMNlzlIV4MJVObK-V2DxLkMLIsrpXav');
+$app = new DropboxApp("App Key", "App Secret", 'AccessToken');
 $dropbox = new Dropbox($app);
 $dropboxFile = new DropboxFile(get_file($get));
 $file = $dropbox->simpleUpload($dropboxFile, "/".$name.'.mp3', ['autorename' => false]);
