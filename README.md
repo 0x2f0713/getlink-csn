@@ -52,7 +52,7 @@ Cái này không có tác dụng gì quan trọng nên bạn có thể bỏ đi 
 Đây là file test upload file và lấy link truy cập trực tiếp (download) tạm thời của Dropbox.
 #### File simple_html_dom.php
 Thư viện giúp bóc tách dữ liệu từ trang khác, giúp mình lấy được link download và tên bài hát. Cái này bạn lên Google tìm nhé.
-### Thư mục vendor
+#### Thư mục vendor
 Chứa Dropbox SDK (chưa chính thức) và một số thư viện đi kèm.
 
 > Còn về cái App Key, App Secret, AccessToken thì để sau vì nó khá dài, đi chơi Tết đã.
