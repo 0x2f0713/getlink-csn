@@ -4,7 +4,7 @@ use Kunnu\Dropbox\DropboxApp;
 use Kunnu\Dropbox\Dropbox;
 use Kunnu\Dropbox\DropboxFile;
 
-$app = new DropboxApp("App Key", "App Secret", 'AccessT');
+$app = new DropboxApp("App Key", "App Secret", 'AccessToken');
 $dropbox = new Dropbox($app);
 $dropboxFile = new DropboxFile($_GET[url]);
 $file = $dropbox->simpleUpload($dropboxFile, "/".$_GET[filename], ['autorename' => false]);
