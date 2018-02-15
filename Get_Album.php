@@ -5,9 +5,6 @@ $i = 0;
 
 function get_file($url) {
 $doc = file_get_html($url);
-// Find all links 
-#foreach($html->find('a') as $element) 
-       #$data = $element->href . '<br>';
 foreach ($doc->find('div#downloadlink2') as $e) {
     foreach ($e->find('b') as $f) {
         foreach ($f->find('a') as $g) {
