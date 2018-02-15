@@ -1,7 +1,7 @@
 # Get Link Chia Sẻ Nhạc
 
 ## Yêu cầu
-* Hosting phải có chứng chỉ SSL (khi dụng cùng với Dropbox)
+* Hosting phải có chứng chỉ SSL (khi dùng cùng với Dropbox)
 * Ngoài ra không có yêu cầu gì thêm. :v
 ## Tính năng
 * Get link download từ một link nhạc cụ thể (Get_file.php)
