@@ -56,3 +56,16 @@ Thư viện giúp bóc tách dữ liệu từ trang khác, giúp mình lấy đ�
 Chứa Dropbox SDK (chưa chính thức) và một số thư viện đi kèm.
 
 > Còn về cái App Key, App Secret, AccessToken thì để sau vì nó khá dài, đi chơi Tết đã.
+## Dropbox SDK
+Trước tiên, bạn cần tạo một ứng dụng trên [Dropbox](https://www.dropbox.com/developers/apps/create)
+![](https://imgur.com/download/9EarZ3R)
+
+Sau đó vào trang setting app của bạn. Nhấp vào Generated Token
+
+![](https://imgur.com/download/YMxAV5n)
+
+App Key, App Secret ở phía trên
+
+![Imgur](https://i.imgur.com/EGb17hn.png)
+
+Sau đó bạn chỉnh sửa các thông số trên trong file dropbox.php và Chatbot.php (nếu cần)
